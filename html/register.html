@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				background-color:#DDDDDD;
+			}
+			.register{
+				width: 300px;
+				height: auto;
+				/*background-color: greenyellow;*/
+				margin: auto;
+				margin-top: 15px;
+				text-align: center;
+			}
+			input[type='password']{
+				width: 290px;
+				height: 30px;
+				margin-top: 20px;
+			}
+			input[type='text']{
+				width: 290px;
+				height: 30px;
+				margin-top: 20px;
+			}
+			input[type='email']{
+				width: 290px;
+				height: 30px;
+				margin-top: 20px;
+			}
+			.registerBox{
+				width: 300px;
+				height: 30px;
+				background-color: #009688;
+				text-align: center;
+				color: white;
+				margin-top: 20px;
+			}
+			.login{
+				width: 300px;
+				height: 30px;
+				background-color: white;
+				text-align: center;
+				color: #8F8F94;
+				margin-top: 20px;
+			}
+			a{
+				text-decoration: none;
+			}
+			a:hover{
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="register">
+			<span style="font-size: 200px; font-family:'微软雅黑'; color:#AAAAAA;">IN+</span>
+			<strong>注册平台账号</strong><br />
+			<small style="color:#696969">创建账户以查看更多好玩功能</small>
+			<!--<input type="text" id="Username" value="" placeholder="UserName"/>-->
+			<input type="text" name="uname" id="uname" value="" onblur="checkUname()" alt="用户名" placeholder="UserNme"/><br />						
+			<input type="text" name="mail" id="mail" value="" alt="邮箱" onblur="checkMail()" placeholder="Email"/><br />
+			<input type="password" name="pwd" id="pwd" value="" onblur="checkPwd()" placeholder="password"/><br />
+			<input type="checkbox" name="" id="agree" value="" onclick="checkAgree()"/>同意条款和政策
+			<a href="login.html">
+		    <div class="registerBox">
+		    	注册
+		    </div>
+		    </a>
+		 
+		    <span style="color: #A9A9A9;">已经有一个账户?</span><br />
+		    <a href="login.html">
+		    <div class="login">
+		    	登录
+		    </div>
+		    </a>
+		</div>
+	</body>
+</html>
