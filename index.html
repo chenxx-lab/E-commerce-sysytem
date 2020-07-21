@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>后台管理系统</title>
+		  <meta name="viewport" content="width=device-width, initial-scale=1">    
+	</head>
+	<body>
+		<div class="mt-2">			
+	<!--左导航栏-->
+	<!--使用了弹性布局，bootstrap4专有mt-2,使用 d-flex 类创建一个弹性盒子容器，并设置2个弹性子元素-->
+		<div class="d-flex">
+			<div class="bg-secondary">	
+	<!--左导航栏的头部图片部分-->
+				<div class="mt-2">
+					<div class="d-flex">
+						
+			<!--管理员头像-->
+						<div class="myphotes">
+							<img src="img/03.png" />
+						</div>
+						
+						
+			<!--管理员名字
+						<div align="center" class="text-white"><strong>小美</strong></div>-->
+						
+						
+			<!--管理员信息    下拉菜单栏-->
+						<div class="dropdown">
+							  <a href="#" class="text-light dropdown-toggle" role="button" id="dropdownMenuLink" 
+							  	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left: 20px;">
+								管理员小美
+							  </a>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="#">个人信息</a>
+								<a class="dropdown-item" href="#">好友</a>
+								<a class="dropdown-item" href="#">信箱</a><hr />
+								<a class="dropdown-item" href="#">登录</a>
+							  </div>
+							</div>
+				</div>				
+				</div>
+				
+		<!--左边导航栏部分-->
+				<div class="container-fluid">
+					
+					<!--Dashbords-->
+					<div class="Dashbords">
+					<div class="Mydisplay a">
+						<a href="#">
+						<img src="tubiao/产品管理.png" width="18px" height="18px"/>
+					Dashbords
+					<span style="margin-left: 40px;">
+						<img class="img1" src="img/箭头.png" width="17px" height="17px"/>
+					</span>
+					</a>
+					</div>
+					<div class="currentDd" style="display: none; padding-left: 30px;">
+						<a href="display1.html">主页实例1</a><br />
+						<a href="#">主页实例2</a><br />
+						<a href="#">主页实例3</a><br />
+						<a href="#">主页实例4</a><br />
+						<a href="#">主页实例5</a>
+					</div>
+				</div>
+				
+		<!--图标-->
+				<div class="" style="padding-top: 15px;">
+					<div class="Mydisplay b">
+						<a href="#">
+						<img src="tubiao/图表.png" width="18px" height="18px"/>
+					图标
+					<span style="margin-left: 85px;">
+						<img class="img2" src="img/箭头.png" width="17px" height="17px"/>
+					</span>
+					</a>
+					</div>
+					<div class="currentDd" style="display: none; padding-left: 30px;">
+						<a href="#">图标实例1</a><br />
+						<a href="#">图标实例2</a><br />
+						<a href="#">图标实例3</a><br />
+						<a href="#">图标实例4</a><br />
+						<a href="#">图标实例5</a>
+					</div>
+				</div>
+				
+		<!--邮箱-->
+				<div id="accordion" style="padding-top: 10px;">
+				    <div class="text">
+				      <div class="text-header">
+				        <a class="text" data-toggle="collapse" href="#collapseOne">
+				        	    <img src="tubiao/邮件.png" width="18px" height="18px"/>
+				                <span style="color: black;">邮件</span>
+				                <span style="margin-left: 60px; background-color: orange; border-radius: 15%;">
+						        16/24
+					            </span>
+				        </a>
+				      </div>
+				      <div id="collapseOne" class="collapse" data-parent="#accordion">
+				        <div class="text-body" style="padding-left: 50px;">
+				          <a href="#">收件箱</a><br />
+				          <a href="#">邮件内容</a><br />
+				          <a href="#">写邮件</a><br />
+				          <a href="#">已读邮件</a><br />
+				          <a href="#">草稿</a>
+				        </div>
+				      </div>
+				    </div>
+				    </div>
+				    
+			<!--窗口小控件-->
+				    <div class="item">
+				    	<a href="#">
+				    		<img src="tubiao/控件.png" width="18px" height="18px"/>
+				    		窗口小控件
+				    	</a>
+				    </div>
+				    
+			<!--指标-->
+				    <div class="item">
+				    	<a href="#">
+				    		<img src="tubiao/指标.png" width="18px" height="18px"/>
+				    		<a href="#">指标</a>
+				    	</a>
+				    </div>
+				    
+			<!--工资表-->
+				    <div class="item">
+				    	<a href="#">
+				    		<img src="tubiao/工资表审核.png" width="18px" height="18px"/>
+				    		<a href="#">工资表</a>
+				    	</a>
+				    </div>
+				    
+			<!--组件-->
+						<div id="accordion" style="padding-top: 15px;">
+						    <div class="text">
+						      <div class="text-header">
+						        <a class="text" data-toggle="collapse" href="#collapseOne1">
+						        	    <img src="tubiao/控件.png" width="18px" height="18px"/>
+						                <span style="color: black;">组件</span>
+						                <span style="color: white; margin-left: 60px; background-color: dodgerblue; border-radius: 15%;">
+								                 <strong>&nbsp;&nbsp;新&nbsp;&nbsp;</strong>
+							            </span>
+						        </a>
+						      </div>
+						      <div id="collapseOne1" class="collapse" data-parent="#accordion">
+						        <div class="text-body" style="padding-left: 50px;">
+						          <a href="#">谷歌地图</a><br />
+						          <a href="#">社交按钮</a><br />
+						          <a href="#">模态窗口</a><br />
+						          <a href="#">聊天窗口</a><br />
+						          <a href="#">数据地图</a><br />
+						          <a href="#">论坛</a><br />
+						          <a href="#">验证</a><br />
+						          <a href="#">树形菜单</a><br />
+						          <a href="#">加载动画</a><br />
+						          <a href="#">Love favicon</a><br />
+						          <a href="#">弹性组件</a>
+						        </div>
+						      </div>
+						    </div>
+						    </div>
+						    
+				<!--UI元素-->
+						    <div class="" style="padding-top: 15px;">
+								<div class="Mydisplay c">
+									<img src="tubiao/元素.png" width="18px" height="18px"/>
+								<a href="#">UI元素</a>
+								<span style="margin-left: 65px;">
+									<img class="img3" src="img/箭头.png" width="17px" height="17px"/>
+								</span>
+								</div>
+								<div class="currentDd" style="display: none; padding-left: 30px;">
+									<a href="#">排版</a><br />
+									<a href="#">图标</a><br />
+									<a href="#">按钮</a><br />
+									<a href="#">拖动排序</a><br />
+									<a href="#">标签</a><br />
+									<a href="#">css辅助</a><br />
+									<a href="#">内容缩放</a><br />
+									<a href="#">面板</a>
+								</div>
+							</div>
+							
+				<!--商场-->
+							<div class="" style="padding-top: 15px;">
+								<div class="Mydisplay d"><img src="tubiao/商场.png" width="18px" height="18px"/>
+								<a href="#">商场a</a>
+								<span style="margin-left: 75px;">
+									<img class="img4" src="img/箭头.png" width="17px" height="17px"/>
+								</span>
+								</div>
+								<div class="currentDd" style="display: none; padding-left: 30px;">
+									<a href="#">产品图表</a><br />
+									<a href="#">产品列表</a><br />
+									<a href="#">产品编辑</a><br />
+									<a href="#">产品详情</a><br />
+									<a href="#">购物车</a><br />
+									<a href="#">订购页</a><br />
+									<a href="#">支付页</a><br />
+								</div>
+							</div>
+							
+				<!--菜单-->
+							<div class="" style="padding-top: 15px;">
+								<div class="Mydisplay e"><img src="tubiao/菜单栏.png" width="18px" height="18px"/>
+								<a href="#">菜单</a>
+								<span style="margin-left: 80px;">
+									<img class="img5" src="img/箭头.png" width="17px" height="17px"/>
+								</span>
+								</div>
+								<div class="currentDd" style="display: none; padding-left: 30px;">
+									<div>
+									<span class="currentDd1">
+									<a href="#">三级菜单</a>
+									<span style="margin-left: 37px;">
+									<img class="img6" src="img/箭头.png" width="17px" height="17px"/>
+								    </span>
+								    </span>
+									<div class="currentDd f" style="display: none; padding-left: 50px;">
+									<a href="#">菜单栏1</a><br />
+									<a href="#">菜单栏2</a><br />
+									<a href="#">菜单栏3</a><br />
+								    </div>
+									</div>
+									<a href="#">二级菜单</a><br />
+									<a href="#">一级菜单</a><br />						
+								</div>
+							</div>
+							
+					<!--反馈-->
+							<div class="" style="padding-top: 15px;">
+								<div class="Mydisplay g"><img src="tubiao/反馈.png" width="18px" height="18px"/>
+								<a href="">反馈结果</a>
+								<span style="margin-left: 47px;">
+									<img id="img7" src="img/箭头.png" width="17px" height="17px"/>
+								</span>
+								</div>
+								<div class="currentDd" style="display: none; padding-left: 30px;">
+									<a href="#">产品反馈</a><br />
+									<a href="#">售后反馈</a><br />
+									<a href="#">售前反馈</a><br />
+									<a href="#">反馈处理</a><br />
+								</div>
+							</div>
+
+			</div>
+		    </div>	
+           			
+	<!--内容部分-->
+			<div class="bg-light">
+	<!--顶部部分-->			
+	         <div class="mt-8">
+	        
+				<div class="text-head d-flex">
+					<img id="start" src="tubiao/首页.png" width="30" height="30"/>
+					<input type="text" name="search" id="search" value="" placeholder="请输入搜索内容..."/>
+					<img src="tubiao/搜索.png" width="20" height="20"/>
+					<span style="padding-left: 100px;">欢迎来到inspinia 2.9.2管理后台	</span>			
+							
+			
+					
+					
+	<!--邮件通知-->
+					<span class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" 
+						data-toggle="dropdown">
+						<span style="margin-left: 20px;">											
+						<span style="border-radius: 50%;background-color:red ;color: white;font-size: 10px;">12</span>
+						<img src="tubiao/邮件.png" width="20px" height="20px"/>							
+					    </span>
+						<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu e-mail" role="menu" style="width: 100px;">
+							<small class="float-right"><span style="color: gainsboro;">44分钟前</span></small>
+							<li><a href="#">																
+									<img src="img/1.jpg" width="30px" height="30px"/>																											
+									<small style="float: left;">小黑点赞了小红2020.05.03</small>																									
+						    </a></li>
+						    <hr />						
+							<li>
+								<small class="float-right"><span style="color: gainsboro;">44分钟前</span></small>
+								<a href="#">
+							        <img src="img/2.jpg" width="30px" height="30px"/>																									
+									<small style="float: left;">小黑评论了小红2020.01.03</small>	
+							</a></li>
+							<hr />
+							<li>
+								<small class="float-right"><span style="color: gainsboro;">44分钟前</span></small>
+								<a href="#">
+								    <img src="img/3.jpg" width="30px" height="30px"/>																											
+									<small style="float: left;">小黑回复了小红2020.05.03</small>	
+							</a></li>
+							<hr />
+							<li><a href="#">
+								<div align="center">
+									<img src="tubiao/邮件.png" width="18" height="18px"/>
+									<small>查看所有邮件</small>
+								</div>
+							</a></li>
+						</ul>
+					</span>
+					
+					
+					
+					<!--信息通知-->
+					<div class="btn-group">
+						<button type="button" class="btn btn-default dropdown-toggle" 
+								data-toggle="dropdown">
+								<span style="padding-left: 15px;">
+									<span style="border-radius: 50%;background-color:red ;color: white;font-size: 10px;">33</span>	
+									<img src="tubiao/铃声.png" width="25px" height="25px"/>
+								</span>
+						<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">
+								<img src="tubiao/邮箱.png" width="18px" height="18"/>
+								<small>你有16条消息&nbsp;&nbsp;<span style="color: gainsboro;">4分钟前</span></small>
+							</a></li>
+							<hr />
+							<li><a href="#">
+								<img src="tubiao/bird-小鸟.png" width="18px" height="18"/>
+								<small>3个新关注者&nbsp;&nbsp;&nbsp;<span style="color: gainsboro;">4分钟前</span></small>
+							</a></li>
+							<hr />
+							<li><a href="#">
+								<img src="tubiao/重启.png" width="18px" height="18"/>
+								<small>重启服务器&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: gainsboro;">44分钟前</span></small>
+							</a></li>
+							<hr />
+							<div align="center">
+								<li><a href="#"><small>查看所有信息></small></a></li>
+							</div>							
+						</ul>
+					</div>
+										
+										
+										
+					<!--注册登录图标-->
+					<span style="padding-left: 20px;">
+						<a href="html/login.html">
+						<img src="tubiao/登录 用户.png" width="25px" height="25px"/>
+						</a>
+					</span>	
+					
+					
+					<span style="padding-left: 15px;">
+						<a href="html/login.html" style="color: black;">
+						注销
+						</a>
+					</span>
+					
+					
+					<!--最新记录-->
+					<span style="padding-left: 15px;" class="record">					
+						<a href="#">
+						      <img src="tubiao/菜单 (1).png" width="25px" height="25px"/>
+						</a>		
+					</span>					
+				</div>			 	
+	         </div>	
+				
+		<!--选项卡-->
+				<div class="select">
+					<ul id="myTab" class="nav nav-tabs">
+					   <li class="active select1">
+					      <a href="#record" data-toggle="tab">记录</a>
+					   </li>
+					   
+					   <li class="select1"><a href="#ios" data-toggle="tab">项目</a></li>
+					   
+					   <li class="select1"><a href="#reset" data-toggle="tab">
+							  <img src="tubiao/设置.png" width="18px" height="18px"/>
+					     </a></li>
+					</ul>
+				
+		<!--记录内容-->
+					<div id="myTabContent" class="tab-content" style="border: 1px solid #808080;">
+					   <div class="tab-pane fade active" id="record">
+					    <div style="padding-left: 20px; padding-top: 20px;background-color: #DDDDDD;">
+					    	<img src="tubiao/信息.png" width="20px" height="30px"/>
+					    	<strong>最新记录</strong>
+					    	<p><samll>你有10条新消息</samll></p>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 0px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/1.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					   
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/2.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 0px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/1.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>			    
+					   </div>
+					  
+		<!--项目内容-->
+					   <div class="tab-pane fade" id="ios">
+					      <div class="active" style="padding-left: 20px; padding-top: 20px;background-color: #DDDDDD;">
+					    	<img src="tubiao/信息.png" width="20px" height="30px"/>
+					    	<strong>最新项目</strong>
+					    	<p><samll>你有几个要处理</samll></p>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 0px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/1.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					   
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/2.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 0px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/1.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>			    
+					   </div>
+					   
+		<!--设置内容-->
+					   <div class="tab-pane fade" id="reset">
+					     <div class="active" style="padding-left: 20px; padding-top: 20px;background-color: #DDDDDD;">
+					    	<img src="tubiao/信息.png" width="20px" height="30px"/>
+					    	<strong>请设置内容</strong>
+					    	<p><samll>根据自己情况设置</samll></p>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 0px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/1.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					   
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/2.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    	<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: white;height: 60px;padding-top: 5px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/3.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; padding-top: 0px; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>
+					    
+					    <div class="active" style="background-color: #DDDDDD;height: 60px;padding-top: 0px">
+					    	<div style="width: 40px; height: 40px; border-radius: 100%; overflow: hidden;position: absolute;">
+					    		<img src="img/1.jpg" width="40px" height="40px"/>					    		
+					    	</div> 
+					    	<div style="position: relative;float: right; width: 190px; height: 60px;">
+					    		<small>人生就像钟表，可以回到终点</small><br />
+					    		<small>今天4:21</small>					    		
+					    	</div>
+					    </div>			  
+					   </div>
+					</div>
+				</div>
+				
+								
+	<!--内容部分-->
+				<div class="content">
+				<!--图表-->
+					<div class="row">
+					<div class="col-sm-12">
+						<div id="main" style="width:850px;height:500px;"></div>
+					</div>
+				</div>
+				<!--表单-->
+				<div class="row tables" style="padding-top: 20px; background-color: white;">
+					<div class="col-sm-12">
+						<table border="0" cellspacing="" cellpadding="">
+							<tr>
+								<th>项目名</th>
+								<th>公司</th>
+								<th>名称</th>
+								<th>状态</th>
+							</tr>
+							
+						   <tr>
+						         <th><input type="text" name="" id="" value="" placeholder="project name"/></th>
+						         <th><input type="text" name="" id="" value="" placeholder="company"/></th>
+						         <th><input type="text" name="" id="" value="" placeholder="name"/></th>
+						         <th>
+						         	<input list="browsers" name="browser" placeholder="请选择..">
+						         	<datalist id="browsers">
+									  <option value="完成">
+									  <option value="未完成">
+									  <option value="即将完成">
+									  <option value="不能完成">
+									  <option value="未处理">
+									</datalist>
+						         </th>
+						   </tr>
+						 </table>
+						 
+						 <table border="0" cellspacing="" cellpadding="" style="padding-top: 20px;">
+						   <tr align="center">
+						   <td>1</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						   
+						   <tr align="center">
+						   <td>2</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						   
+						  <tr align="center">
+						   <td>3</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						   
+						  <tr align="center">
+						   <td>4</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						   
+						   <tr align="center">
+						   <td>5</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						   
+						   <tr align="center">
+						   <td>6</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						   
+						   <tr align="center">
+						   <td>7</td>
+						   <td>王者农药</td>
+						   <td>天美工作室</td>
+						   <td>20%</td>
+						   <td>企鹅公司</td>
+						   <td>$25455</td>
+						    <td><input type="checkbox" name="" id="" value="" /></td>
+						   </tr>
+						</table>
+					</div>					
+				</div>
+				
+				
+				
+				</div> 		
+			</div>
+		</div>
+		</div>
+		
+	</body>
+	      <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+		  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		  <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+		  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	      <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		  <script src="js/Echarts.js" type="text/javascript" charset="utf-8"></script>
+</html>
